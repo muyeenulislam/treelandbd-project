@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Tree Land BD" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://i.ibb.co/4StCR12/logo.jpg" />
+
+    <meta property="og:url" content="index.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="img/png" href="./img/logo.jpeg" />
+
+    <title>Treeland Bangladesh Ltd.</title>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/1637424707.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--styles-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader"></div>
+    <!--header-->
+    <header class="header">
+      <!--navbar-->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <!-- nav logo -->
+            <img
+              src="./img/logo.jpeg"
+              height="48px"
+              width="48px"
+              class="nav-logo"
+              alt="logo"
+            />
+            <!-- nav toggler -->
+            <button
+              type="button"
+              class="nav-toggle"
+              id="nav-toggle"
+              aria-label="nav toggler"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- end of nav header -->
+          <!-- navbar links -->
+          <div class="nav-links" id="nav-links">
+            <a href="#home" class="nav-link scroll-link">home</a>
+            <a href="#about" class="nav-link scroll-link">about</a>
+
+            <a href="#contact" class="nav-link scroll-link">contact</a>
+          </div>
+          <!-- end of navbar links -->
+        </div>
+      </nav>
+    </header>
+    <!--end of header-->
+
+    <!--hero component-->
+    <section class="section hero" id="home">
+      <div class="hero-banner">
+        <h1 class="hero-title">Treeland</h1>
+        <p class="hero-text">Bangladesh Ltd.</p>
+        <a href="#about" class="btn-white scroll-link">Learn more </a>
+      </div>
+    </section>
+
+    <!--about section-->
+    <section class="section about" id="about">
+      <!--title-->
+      <div class="title-wrapper">
+        <p class="smaller-title">get to know us</p>
+        <h2 class="title"><span class="subtitle">about</span> Us</h2>
+      </div>
+      <!--end of title-->
+      <!--about center-->
+      <div class="about-center section-center">
+        <!--about image-->
+        <article class="about-img">
+          <img src="./img/logo.jpeg" class="about-photo" alt="paint" />
+        </article>
+        <!--about info-->
+        <article class="about-info">
+          <h3>Who are we?</h3>
+          <h4>
+            We are Tree Land BD. We do all kinds of import and export business.
+          </h4>
+          <p class="about-desc">
+            We specialize in importing and exporting. We also plan to work on
+            manufacturing jute related products in the future. To do business
+            with us leave us an email or give us a call.
+          </p>
+          <div class="about-desc2">
+            <ul class="about-desc-list">
+              <li>
+                <span class="about-mini-title">Email :</span>
+                treelandbd@gmail.com
+              </li>
+              <li>
+                <span class="about-mini-title">Phone :</span> +8801955287844
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--end of about section-->
+
+    <!-- contact -->
+    <section class="section contact" id="contact">
+      <!--title-->
+      <div class="title-wrapper">
+        <p class="smaller-title">get in touch with us</p>
+        <h2 class="title"><span class="subtitle">contact</span></h2>
+      </div>
+      <!--end of title-->
+
+      <form
+        action="https://formspree.io/f/mlevrbqv"
+        target="_blank"
+        method="post"
+      >
+        <div class="input-group">
+          <input
+            type="name"
+            name="name"
+            class="form-control"
+            placeholder="Your Name"
+          />
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="Your Email"
+          />
+          <textarea
+            name="textarea"
+            rows="5"
+            class="form-control"
+            placeholder="Leave a Message"
+          ></textarea>
+          <button type="submit" class="btn-primary form-btn">Submit</button>
+        </div>
+      </form>
+    </section>
+    <!-- end of contact -->
+
+    <!-- footer -->
+    <footer class="section footer">
+      <!-- footer links -->
+      <div class="footer-links">
+        <a href="#home" class="footer-link scroll-link">home</a>
+        <a href="#about" class="footer-link scroll-link">about</a>
+        <a href="#contact" class="footer-link scroll-link">contact</a>
+      </div>
+
+      <!-- copyright -->
+      <p class="copyright">
+        copyright &copy; Treeland Bangladesh Ltd. <span id="date"></span>. all rights
+        reserved
+      </p>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
